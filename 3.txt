@@ -1,0 +1,33 @@
+\documentclass{report}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{geometry}
+\newcommand{\titlepageVTU}{
+\begin{titlepage}
+\begin{center}
+\textbf{\LARGE JNN College of Engineering, Shivamogga} \\
+\begin{center}
+\includegraphics[width=0.3\textwidth]{vtu.jpg} % VTU logo (replace with actual logo file)
+\end{center}
+\vspace*{1cm}
+\textbf{\LARGE Visvesvaraya Technological University}
+\vspace{0.5cm}\\
+{\Large Department of Computer Science and Engineering}\\ % Replace with your department name
+\vspace{2cm}
+{\huge\textbf{COVID-19}}\\ % Replace with your project title\\
+\vspace{2cm}
+\textbf{\Large by}\\
+\vspace{0.5cm}
+{\Large Kumar} % Replace with your name
+\vfill
+\textbf{\Large Mrs. Namitha M V} % Replace with your guide's name
+\vspace{0.5cm}
+{\Large Your Co-guide's Name (if any)} % Replace with your co-guide's name, if any
+\vfill
+{\large 8th Semester, 2024} % Replace with semester and year
+\end{center}
+\end{titlepage}
+}
+\begin{document}
+\titlepageVTU % Insert custom title page
+\end{document}

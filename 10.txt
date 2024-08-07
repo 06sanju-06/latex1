@@ -1,0 +1,36 @@
+
+
+\documentclass{article}
+% Import the 'tikz' package for creating diagrams
+\usepackage{tikz}
+\usetikzlibrary{trees}
+\begin{document}
+\title{Simple Tree Diagram or Hierarchical Structure in the Document with appropriate 
+Labels using the Tikz Library}
+\date{}
+\maketitle
+% Create a tree diagram
+% Wrap the TikZ picture in a 'center' environment to center the diagram
+\begin{center}
+\begin{tikzpicture}[
+level 1/.style={sibling distance=7cm},
+level 2/.style={sibling distance=4cm},
+level distance=2cm,
+every node/.style={font=\large} % Increase font size here (e.g. \large, \Large)
+]
+% Root node
+\node {Root}
+% Level 1 nodes
+child { node {Child 1}
+% Level 2 nodes
+child { node {Grandchild 1.1} }
+child { node {Grandchild 1.2} }
+}
+child { node {Child 2}
+% Level 2 nodes
+child { node {Grandchild 2.1} }
+child { node {Grandchild 2.2} }
+};
+\end{tikzpicture}
+\end{center}
+\end{document}

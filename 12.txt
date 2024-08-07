@@ -1,0 +1,76 @@
+
+\documentclass[10pt, a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage[numbers]{natbib}
+
+\begin{document}
+
+\title{Growth of India in the 21\textsuperscript{st} Century}
+\author{JNNCE}
+\date{June 1, 2024}
+\maketitle
+
+\tableofcontents
+
+\chapter{Introduction}
+India has seen remarkable growth in various sectors in the 21\textsuperscript{st} century. This report delves into the key areas of development and the factors driving this growth \citep{sen2005development, bhagwati2013why}.
+
+\chapter{Economic Growth}
+India’s economy has grown significantly, making it one of the largest economies in the world. This chapter explores the major contributors to economic growth including industrial development, foreign investment, and technological advancements \citep{panagariya2019india}.
+
+\section{Industrial Development}
+The industrial sector has expanded rapidly, contributing to GDP growth and employment. Policies promoting ease of doing business have played a crucial role \citep{gordon2004india}.
+
+\section{Foreign Investment}
+Foreign Direct Investment (FDI) has been a major catalyst for economic development, bringing in capital, technology, and managerial expertise \citep{agarwal2001foreign}.
+
+\chapter{Technological Advancements}
+Technological progress has been a key driver of India’s growth, with significant advancements in IT, telecommunications, and digital infrastructure \citep{joshi2008information}.
+
+\section{Information Technology}
+The IT sector has been a cornerstone of India’s economic progress, providing jobs and driving exports \citep{heeks1996india}.
+
+\section{Telecommunications}
+India has become one of the largest markets for telecom, with rapid growth in mobile and internet penetration \citep{singh2010mobile}.
+
+\chapter{Social Development}
+Social indicators have also improved, with advancements in healthcare, education, and poverty reduction \citep{drze2013an}.
+
+\section{Healthcare}
+Access to healthcare has increased, leading to better health outcomes and longer life expectancy \citep{jeevan2008public}.
+
+\section{Education}
+Education reforms have improved literacy rates and provided new opportunities for the youth \citep{tilak2006education}.
+
+\chapter{Conclusion}
+The 21\textsuperscript{st} century has been a period of significant growth for India. The country’s economic and social development has been remarkable, positioning it as a global player \citep{sen2005development}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{india.JPG}
+\caption{Illustration related to India’s Growth}
+\label{fig:growth}
+\end{figure}
+
+% Add a references section
+\newpage
+\begin{thebibliography}{99}
+\bibitem{sen2005development} A. Sen. \textit{The Argumentative Indian: Writings on Indian History, Culture and Identity}. Penguin Books, 2005.
+\bibitem{bhagwati2013why} J. Bhagwati and A. Panagariya. \textit{Why Growth Matters: How Economic Growth in India Reduced Poverty and the Lessons for Other Developing Countries}. PublicAffairs, 2013.
+\bibitem{panagariya2019india} A. Panagariya. \textit{India: The Emerging Giant}. Oxford University Press, 2019.
+\bibitem{gordon2004india} J. Gordon and P. Gupta. \textit{Understanding India's Services Revolution}. IMF Working Paper, 2004.
+\bibitem{agarwal2001foreign} J. P. Agarwal. \textit{Foreign Direct Investment: Analysis of Aggregate Flows}. Routledge, 2001.
+\bibitem{joshi2008information} S. Joshi. \textit{Information Technology in India: An Assessment}. ICFAI Books, 2008.
+\bibitem{heeks1996india} R. Heeks. \textit{India's Software Industry: State Policy, Liberalisation and Industrial Development}. Sage Publications, 1996.
+\bibitem{singh2010mobile} S. Singh. \textit{Mobile Marketing: The Next Generation of Business Communication}. Wiley, 2010.
+\bibitem{drze2013an} J. Drèze and A. Sen. \textit{An Uncertain Glory: India and its Contradictions}. Penguin Books, 2013.
+\bibitem{jeevan2008public} R. Jeevan and S. P. Rao. \textit{Public Health and Social Development in India}. Sage Publications, 2008.
+\bibitem{tilak2006education} J. B. G. Tilak. \textit{Education: A Saga of Spectacular Achievements and Conspicuous Failures}. In: T. Dyson, R. Cassen, L. Visaria (eds) Twenty-First Century India. Oxford University Press, 2006.
+\end{thebibliography}
+
+\end{document}
