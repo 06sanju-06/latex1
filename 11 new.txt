@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage[ruled,vlined]{algorithm2e}
+\begin{document}
+\title{Sample Algorithm}
+\author{}
+\date{}
+\maketitle
+\section*{Algorithm Example}
+\begin{algorithm}[H]
+\SetAlgoLined
+\KwResult{Find the maximum element in an array}
+\SetKwInOut{Input}{Input}
+\SetKwInOut{Output}{Output}
+\Input{An array of integers $A$ of size $n$}
+\Output{The maximum element in $A$}
+\BlankLine
+$max \leftarrow A[0]$\;
+\For{$i \leftarrow 1$ \KwTo $n-1$}{
+\If{$A[i] > max$}{
+$max \leftarrow A[i]$\;
+}
+}
+\Return $max$\;
+\caption{Find Maximum Element}
+\end{algorithm}
+\end{document}
